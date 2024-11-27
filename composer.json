@@ -1,0 +1,22 @@
+{
+    "name": "devzihad/laravel-sslcommerz",
+    "description": "A Laravel package for SSLCommerz payment gateway integration.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devzihad\\LaravelSslcommerz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zihadul Islam",
+            "email": "devzihad2022@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^10.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
